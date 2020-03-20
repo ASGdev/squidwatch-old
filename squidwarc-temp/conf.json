@@ -1,0 +1,24 @@
+{
+  "use": "puppeteer",
+  "headless": true,
+  "script": "./userFns.js",
+  "seeds": [
+    "http://www.heresie.com/"
+  ],
+  "warc": {
+    "naming": "url"
+  },
+  "connect": {
+    "launch": true,
+    "host": "localhost",
+    "port": 9222
+  },
+  "crawlControl": {
+    "globalWait": 60000,
+    "inflightIdle": 1000,
+    "numInflight": 2,
+    "navWait": 8000,
+    "mode": "page-same-domain",
+    "depth": 999999
+  }
+}
