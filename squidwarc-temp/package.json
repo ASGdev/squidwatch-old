@@ -22,7 +22,7 @@
     "js-yaml": "^3.12.1",
     "lodash": "^4.17.11",
     "mime": "^2.4.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-warc": "^3.2.0",
     "normalize-url": "^4.1.0",
     "parse-domain": "^2.1.7",
